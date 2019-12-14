@@ -1,7 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+const MainSection = () => {
+  return (
+    <div className="container">
+      <div className="text-center">
+        Our first example with React. Really!
+      </div>
+    </div>
+  )
+}
+
 ReactDOM.render(
-  <h1>Hello, world!</h1>,
+  <MainSection />,
   document.getElementById('main')
 );
